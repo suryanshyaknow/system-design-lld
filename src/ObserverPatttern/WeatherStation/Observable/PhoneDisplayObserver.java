@@ -1,7 +1,7 @@
-package ObserverPatttern.WatherStation.Observable;
+package ObserverPatttern.WeatherStation.Observable;
 
-import ObserverPatttern.WatherStation.Subject.Subject;
-import ObserverPatttern.WatherStation.Subject.WeatherStation;
+import ObserverPatttern.WeatherStation.Subject.Subject;
+import ObserverPatttern.WeatherStation.Subject.WeatherStation;
 
 public class PhoneDisplayObserver implements Observer {
 

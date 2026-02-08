@@ -1,6 +1,6 @@
-package ObserverPatttern.WatherStation.Subject;
+package ObserverPatttern.WeatherStation.Subject;
 
-import ObserverPatttern.WatherStation.Observable.Observer;
+import ObserverPatttern.WeatherStation.Observable.Observer;
 
 public interface Subject {
 
