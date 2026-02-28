@@ -1,4 +1,4 @@
-package FactoryPattern.PaymentFactory;
+package FactoryPattern.PaymentFactory.implementations;
 
 public interface PaymentProcessor {
 

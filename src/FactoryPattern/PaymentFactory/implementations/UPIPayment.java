@@ -1,7 +1,5 @@
 package FactoryPattern.PaymentFactory.implementations;
 
-import FactoryPattern.PaymentFactory.PaymentProcessor;
-
 public class UPIPayment implements PaymentProcessor {
 
     @Override
