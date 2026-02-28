@@ -5,7 +5,9 @@ import ObserverPatttern.WalmartAmazonNotifyMe.Observable.StockObservable;
 public class MobileAlertNotificationObserver implements NotificationAlertObserver {
 
     private String userName;
-    public StockObservable stockObservable;
+
+    // Not passing the Observable obj directly into update method
+    public StockObservable stockObservable; // Rather pull via reference
 
     public MobileAlertNotificationObserver(String userName, StockObservable stockObservable) {
         this.userName = userName;

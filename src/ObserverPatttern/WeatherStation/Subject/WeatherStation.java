@@ -23,7 +23,7 @@ public class WeatherStation implements Subject {
     @Override
     public void notifyObservers() {
         for (Observer observer : observerList) {
-            observer.update(this);
+            observer.update(this); // Passing the Observable object
         }
     }
 

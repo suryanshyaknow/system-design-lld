@@ -30,7 +30,7 @@ public class IPhoneStockObservable implements StockObservable {
 
     @Override
     public void setStockCount(int newStockCount) {
-        if (stockCount == 0)
+        if (stockCount == 0) // Notify the users whenever new stock comes in post out-of-stock outage.
             notifySubscribers();
         this.stockCount = newStockCount;
     }
