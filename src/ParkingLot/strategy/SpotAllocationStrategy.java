@@ -8,6 +8,10 @@ import java.util.*;
 
 public interface SpotAllocationStrategy {
 
-    ParkingSpot findSpot(Vehicle vehicle, List<ParkingFloor> floorList);
+    /**
+     * Finds AND atomically occupies a compatible spot.
+     * Throws NoSpotAvailableException if none found.
+     */
+    ParkingSpot findAndOccupySpot(Vehicle vehicle, List<ParkingFloor> floorList);
 
 }

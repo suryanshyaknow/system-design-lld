@@ -21,7 +21,7 @@ Parking Lot LLD
    4. Assign a parking slot accordingly
    5. Define strategies for assigning parking slot (based on user input). Like if the vehicle wants slot near the entry or the exit.
    6. At the exit, price is computed based on the ticket lifecyle.
-4. Mapping out the core entities. Now, I'll start simple and extend for extensibility.
+4. Mapping out the core entities. Now, **I'll start simple and extend for extensibility**.
    1. Vehicle, Vehicle enum
    2. Ticket
    3. Parking Lot Floor
